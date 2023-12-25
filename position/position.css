@@ -1,0 +1,37 @@
+*{
+          padding: 0;
+          margin: 0;
+}
+div{
+          height: 100PX;
+          width: 100px;
+          background-color: aqua;
+          border: 2px solid black;
+          display: inline-block;
+}
+#box1{
+          background-color: rgba(204, 37, 37,0.8);
+          position:relative;
+          /* this cannot change anything */
+}
+#box2{
+          background-color: rgba(244, 0,77, 0.5);
+          position: relative;
+          top: 10px;
+          bottom: 30px;
+          /* it changes its position frpm previous position */
+}
+#box3{
+          background-color: beige;
+          /* position: absolute; */
+          position: sticky;
+         top: 0px;
+         right: 50px;
+          /* it changes its position from the closest ansestors int this case body tag is the closests ancestor of div */
+}
+#box4{
+          position: fixed;
+          left: 10px;
+          top: 0px;
+          /* width: 100vw; */
+}

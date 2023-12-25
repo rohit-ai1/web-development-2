@@ -1,0 +1,19 @@
+#parent{
+          background-color: red;
+          height: 100px;
+          width: 80vw;
+          
+}
+#child{
+          background-color: yellow;
+          height: 80vh;
+          width: vw;
+          width: 100px;
+          /* margin-left: 10%; */
+          font-size: 2em;
+}
+/* types of relate units
+1-percentage ex-10%,
+2.em. ex -5em.;
+3.rem: root em:ex- width-5rem;
+4.vh\vw-viewport hieght; */

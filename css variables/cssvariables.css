@@ -1,0 +1,33 @@
+
+:root{
+    --color: rgba(232, 13, 49, 0.53);
+   --seccolor:rgb(235, 161, 253);
+   --space:10px 100px;
+   --newcolor:rgb(233, 159, 12);
+}
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    /* margin: var(--space); */
+    padding: var(--space);
+}
+
+.nav {
+    background-color: var(--color);
+}
+
+.container {
+    background-color: var(--seccolor);
+    padding: var(--space);
+}
+ul li:nth-child(2){
+    background-color: var(--newcolor);
+}

@@ -1,0 +1,12 @@
+.shadow{
+          border: 2px solid black;
+          padding: 50px;
+          box-shadow: 5px 5px 15px 5px #ef78c1;
+          text-shadow:5px 5px 8px  #3d109f;
+          outline: 4px solid blue;
+          border-radius: 50%;
+          outline-offset: 10px;
+          }
+          .text{
+                    text-shadow: 2px 2px 2px 2px pink;
+          }

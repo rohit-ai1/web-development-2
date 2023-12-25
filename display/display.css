@@ -1,0 +1,38 @@
+/* div{
+          background-color: pink;
+          display: inline;
+} */
+/* display properties- this property is used to set display types of elemets . values- block,inline,inline bolck,none.
+inline block is same as inline but we can apply padding and margin in inline block elements. */
+
+button{
+          background-color: aqua;
+          display: block;
+}
+.blue{
+          background-color: blue;
+          height: 100px;
+          width:100px;
+          margin: 25px;
+          padding: 25px;
+          display: inline-block;
+}
+.green{
+          background-color: green;
+          height: 100px;
+          width:100px;
+          margin: 25px;
+          padding: 25px;
+          display: inline-block;
+          
+}
+.red{
+          background-color: red;
+          height: 100px;
+          width:100px;
+          margin: 25px;
+          display: inline-block;
+          padding: 25px;
+          /* visibility property */
+          visibility: hidden;
+}

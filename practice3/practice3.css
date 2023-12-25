@@ -1,0 +1,33 @@
+.contentbox {
+          height: 100px;
+          width: 100px;
+        display: inline-block;
+}
+
+
+#nav {
+          background-color: #0f1111;
+          height: 60px;
+          color: white;
+}
+
+a {
+          margin-right: 100px;
+}
+
+#logo {
+          color: #f08804;
+}
+
+button {
+          background-color: #f08804;
+}
+footer{
+          background-color:#0f1111 ;
+          /* height: 60px; */
+          color: white;
+          text-align: center;
+}
+#content{
+          height: 645px;
+}
