@@ -1,0 +1,19 @@
+.big{
+    font-size: larger;
+  
+background-color: rgb(168, 136, 7);
+    /* background-image: url("table.jpg"); */
+}
+
+th{
+    background-color: red;
+    width: 100px;
+}
+tr{
+    height: 40px;
+    background-color: rgb(168, 136, 7);
+    text-align: center;
+ }
+td{
+    background-color: rgb(55, 214, 55);
+}
